@@ -1,4 +1,5 @@
 {
     "webhookUrl":"PASTE YOUR WEBHOOK LINK HERE!",
+    "webhookMsg":"Moonly has restarted your Mewt :)",
     "minutes":20
 }
