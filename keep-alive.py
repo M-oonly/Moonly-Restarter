@@ -10,11 +10,12 @@ with open('moonly-config.json', 'r') as f:
 
 webhook = data["webhookUrl"]
 minutes_per_restart = data["minutes"]
+webhookMsg = data["webhookMsg"]
 
 embed_data = {
     "color": 15315945,
     "author": {
-        "name": "Moonly#7996 just refreshed your Mewt Sniper :)"
+        "name": f"{webhookMsg}"
     }
 }
 
